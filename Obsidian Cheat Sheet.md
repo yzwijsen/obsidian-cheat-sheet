@@ -73,6 +73,8 @@ Block comments can span multiple lines.
 
 ---
 
+## Types
+
 >[!note]
 > this is a test
 
@@ -108,6 +110,23 @@ Block comments can span multiple lines.
 
 >[!quote]
 > this is a test
+
+## Special
+
+>[!warning] This is a callout with a custom title
+> this is a test
+
+>[!info]+
+> this is a collapsible callout that's open by default
+
+>[!info]-
+> this is a collapsible callout that's closed by default
+
+>[!example]
+> this is a callout with a codeblock inside
+> ```powershell
+> get-service | format-list
+>```
 
 
 # Shortcuts ⌨️
